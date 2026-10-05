@@ -1,21 +1,23 @@
 import Hero from '../components/sections/Hero';
-import AboutPreview from '../components/sections/AboutPreview';
-import HowItWorks from '../components/sections/HowItWorks';
-import WhyChooseAVM from '../components/sections/WhyChooseAVM';
-import FeaturedProjects from '../components/sections/FeaturedProjects';
-import Gallery from '../components/sections/Gallery';
-import ContactCTA from '../components/sections/ContactCTA';
+import CoreValues from '../components/sections/CoreValues';
+import AboutSection from '../components/sections/AboutSection';
+import ProblemSolution from '../components/sections/ProblemSolution';
+import ProjectsSection from '../components/sections/ProjectsSection';
+import PhotoGallery from '../components/sections/PhotoGallery';
+import ClientStories from '../components/sections/ClientStories';
+import ContactSection from '../components/sections/ContactSection';
 
 export default function HomePage() {
   return (
-    <main>
+    <main id="top">
       <Hero />
-      <AboutPreview />
-      <HowItWorks />
-      <FeaturedProjects />
-      <WhyChooseAVM />
-      <Gallery />
-      <ContactCTA />
+      <CoreValues />
+      <AboutSection />
+      <ProblemSolution />
+      <ProjectsSection />
+      <PhotoGallery />
+      <ClientStories />
+      <ContactSection />
     </main>
   );
 }

@@ -4,45 +4,39 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: '#2563EB', // Standard Blue (tailwind blue-600)
-          hover: '#1D4ED8',   // blue-700
-          active: '#1E40AF',  // blue-800
-          light: '#EFF6FF',   // blue-50
-          border: '#BFDBFE',  // blue-200
-        },
-        forest: {
-          DEFAULT: '#2563EB',
-          deep: '#1E40AF',
-          secondary: '#1D4ED8',
-          light: '#3B82F6',
-        },
-        cream: {
-          DEFAULT: '#F8FAFC', // Slate 50
-          warm: '#F1F5F9',    // Slate 100
+        ink: {
+          DEFAULT: '#2E1E17',
+          secondary: '#7A5F52',
+          muted: '#9E887E',
         },
         paper: '#FFFFFF',
-        sand: '#F1F5F9',
-        gold: {
-          DEFAULT: '#2563EB',
-          dark: '#1D4ED8',
-          light: '#60A5FA',
-          muted: '#93C5FD',
+        card: '#FFFFFF',
+        tint: '#FBF4EC',
+        brick: {
+          DEFAULT: '#B4533A',
+          dark: '#8E3F26',
+          hover: '#A04630',
+          light: '#FBF4EC',
         },
-        ink: {
-          DEFAULT: '#0F172A',   // Slate 900
-          secondary: '#475569', // Slate 600
-          muted: '#94A3B8',     // Slate 400
-        },
-        border: {
-          DEFAULT: '#E2E8F0',   // Slate 200
-          light: '#F1F5F9',     // Slate 100
+        mute: '#7A5F52',
+        line: 'rgba(110, 60, 35, 0.16)',
+        hdr: 'rgba(255, 255, 255, 0.94)',
+        navy: '#3A2118',
+        on: '#FFF8F0',
+        onm: '#DCC7B8',
+        warm: '#E3B84F',
+        primary: {
+          DEFAULT: '#B4533A',
+          hover: '#8E3F26',
+          active: '#7A321D',
+          light: '#FBF4EC',
+          border: 'rgba(110, 60, 35, 0.16)',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
-        heading: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        serif: ['Newsreader', 'Georgia', '"Times New Roman"', 'serif'],
+        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+        heading: ['"Bricolage Grotesque"', '"DM Sans"', 'sans-serif'],
+        hand: ['"Caveat"', 'cursive'],
       },
       fontSize: {
         'display': ['clamp(2.5rem, 5.5vw, 4rem)', { lineHeight: '1.1', letterSpacing: '-0.025em' }],
